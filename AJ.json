@@ -1,0 +1,28 @@
+<html>
+<head>
+<eta charset="UTF-8">
+<title></title>
+<script>
+  function Test()
+  {
+    var ajax=new XMlHttpRequest();
+    ajax.open("get","");
+    ajax.omload=function()
+    {
+      console.log(ajax.responseText);
+    }
+    ajax.onerror=function()
+    {
+      alert("connection fail");
+    }
+    ajax.send();
+  }
+  </script>
+ </head>
+ <body>
+ <input type=button" value="getjson" onclick="Test();">
+ </body>
+ <p id="result"></p>
+ </html>
+ 
+ 
