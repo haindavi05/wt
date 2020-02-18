@@ -1,0 +1,17 @@
+[
+  {
+
+"firstName": "HAINDAVI",
+"lastName": "VINJANAMPATI",
+"age":20;
+"marks": [
+          {
+		"english":23
+	  },
+	  {
+		"math":28
+          },
+         ]
+    "address": "hyd"
+  }
+]
